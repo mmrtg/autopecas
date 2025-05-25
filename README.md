@@ -1,5 +1,7 @@
 Descrição do projeto para Modelagem ER como conteúdo do curso Suzano - Análise de Dados com Power BI
+
 *** ENTIDADES E ATRIBUTOS ***
+
 1. Produto
 id_produto (PK)
 nome
@@ -13,6 +15,7 @@ id_fornecedor (PK)
 razão_social
 CNPJ
 contato
+
 3. Cliente (generalização/especialização)
 id_cliente (PK)
 nome

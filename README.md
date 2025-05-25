@@ -70,6 +70,7 @@ quantidade
 valor_unitário
 
 *** RELACIONAMENTOS ***
+
 Produto - Fornecedor
 N:N — Um produto pode ter vários fornecedores e um fornecedor pode fornecer vários produtos
 Entidade associativa: ProdutoFornecedor (com fk_produto, fk_fornecedor)
@@ -101,6 +102,7 @@ CNPJ
 (Regra: um cliente só pode ser PF ou PJ, nunca ambos)
 
 *** REGRAS DE NEGÓCIO ***
+
 Um produto só é vendido por uma única plataforma, não existindo marketplace com vendedores distintos.
 Um pedido pode conter vários produtos.
 Só é permitida uma forma de pagamento por pedido.
